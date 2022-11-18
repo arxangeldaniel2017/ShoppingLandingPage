@@ -15,11 +15,9 @@ body {
   --font-size-xs: 15px;
   --font-size-sm: 16.5px;
   --font-size-base: 18px;
-  --font-size-lg: 20px;
-  --font-size-xl: 24px;
-  --font-size-2xl: 25px;
-  --font-size-3xl: 30px;
-  --font-size-4xl: 36px;
+  --font-size-lg: 24px;
+  --font-size-xl: 30px;
+  --font-size-2xl: 36px;
 
   /* Colors */
   --color-white: #fff;
@@ -35,10 +33,9 @@ body {
   --color-gold-100: #ebd96b;
 
   /* Gaps */
-  --gap-3xs: 5.25px;
-  --gap-2xs: 10px;
-  --gap-xs: 18px;
-  --gap-sm: 21px;
+  --gap-2xs: 5.25px;
+  --gap-xs: 10px;
+  --gap-sm: 18px;
   --gap-md: 24px;
   --gap-lg: 25px;
   --gap-xl: 48.76px;

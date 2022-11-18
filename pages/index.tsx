@@ -1,15 +1,8 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
-import { useRouter } from "next/router";
 import styles from "./index.module.css";
 
 const ShoppingLandingPageFinal: NextPage = () => {
-  const router = useRouter();
-
-  const onFashionLogoButtonClick = useCallback(() => {
-    router.push("/");
-  }, [router]);
-
   const onSignUpButtonClick = useCallback(() => {
     // Please sync "Page2" to the project
   }, []);
@@ -18,18 +11,11 @@ const ShoppingLandingPageFinal: NextPage = () => {
     <div className={styles.shoppingLandingPageFinalDiv}>
       <div className={styles.navigationBarDiv}>
         <div className={styles.navigationInnerBar}>
-          <button
-            className={styles.fashionLogoButton}
-            onClick={onFashionLogoButtonClick}
-          >
-            <img className={styles.vectorIcon} alt="" src="../vector.svg" />
-            <button className={styles.fASHIONButton}>FASHION</button>
-          </button>
           <div className={styles.menuRightDiv}>
             <div className={styles.linksContainerDiv}>
               <div className={styles.linksDiv}>
                 <button className={styles.cATALOGUEButton}>CATALOGUE</button>
-                <button className={styles.fASHIONButton1}>FASHION</button>
+                <button className={styles.fASHIONButton}>FASHION</button>
                 <button className={styles.fAVOURITEButton}>FAVOURITE</button>
                 <button className={styles.lIFESTYLEButton}>LIFESTYLE</button>
               </div>
@@ -64,11 +50,7 @@ const ShoppingLandingPageFinal: NextPage = () => {
               Live for Influential and Innovative fashion!
             </div>
             <div className={styles.buttonRowDiv}>
-              <img
-                className={styles.vectorIcon1}
-                alt=""
-                src="../vector-9.svg"
-              />
+              <img className={styles.vectorIcon} alt="" src="../vector-9.svg" />
               <button className={styles.button}>
                 <div className={styles.shopNowDiv}>Shop Now</div>
               </button>
@@ -134,46 +116,6 @@ const ShoppingLandingPageFinal: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className={styles.favouritesDiv}>
-        <div className={styles.youngsFavouriteDiv}>
-          <div className={styles.titleDiv2}>
-            <img className={styles.vectorIcon2} alt="" src="../vector-91.svg" />
-            <div className={styles.youngsFavouriteDiv1}>Young’s Favourite</div>
-          </div>
-          <div className={styles.panelContainerDiv}>
-            <div className={styles.favCardDiv}>
-              <img
-                className={styles.rectangleIcon}
-                alt=""
-                src="../rectangle-50@2x.png"
-              />
-              <div className={styles.navigationInnerBar}>
-                <div className={styles.textDiv}>
-                  <div className={styles.trendingOnInstagram}>
-                    Trending on instagram
-                  </div>
-                  <div className={styles.exploreNowDiv3}>Explore Now!</div>
-                </div>
-                <img className={styles.arrowIcon} alt="" src="../arrow-4.svg" />
-              </div>
-            </div>
-            <div className={styles.favCardDiv}>
-              <img
-                className={styles.rectangleIcon}
-                alt=""
-                src="../rectangle-49@2x.png"
-              />
-              <div className={styles.navigationInnerBar}>
-                <div className={styles.textDiv}>
-                  <div className={styles.allUnder40}>All Under $40</div>
-                  <div className={styles.exploreNowDiv4}>Explore Now!</div>
-                </div>
-                <img className={styles.arrowIcon} alt="" src="../arrow-5.svg" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className={styles.appDownloadDiv}>
         <div className={styles.vouchersDiv}>
           <div className={styles.downloadAppDiv}>
@@ -194,14 +136,14 @@ const ShoppingLandingPageFinal: NextPage = () => {
             <div className={styles.frameDiv1}>
               <button className={styles.frameButton}>
                 <img
-                  className={styles.rectangleIcon2}
+                  className={styles.rectangleIcon}
                   alt=""
                   src="../rectangle-55@2x.png"
                 />
               </button>
               <button className={styles.frameButton}>
                 <img
-                  className={styles.rectangleIcon2}
+                  className={styles.rectangleIcon}
                   alt=""
                   src="../rectangle-18@2x.png"
                 />
@@ -244,7 +186,15 @@ const ShoppingLandingPageFinal: NextPage = () => {
               <div className={styles.groupDiv}>
                 <div className={styles.rectangleDiv3} />
                 <img
-                  className={styles.vectorIcon3}
+                  className={styles.vectorIcon1}
+                  alt=""
+                  src="../vector.svg"
+                />
+              </div>
+              <div className={styles.groupDiv}>
+                <div className={styles.rectangleDiv3} />
+                <img
+                  className={styles.vectorIcon2}
                   alt=""
                   src="../vector1.svg"
                 />
@@ -252,17 +202,9 @@ const ShoppingLandingPageFinal: NextPage = () => {
               <div className={styles.groupDiv}>
                 <div className={styles.rectangleDiv3} />
                 <img
-                  className={styles.vectorIcon4}
+                  className={styles.vectorIcon3}
                   alt=""
                   src="../vector2.svg"
-                />
-              </div>
-              <div className={styles.groupDiv}>
-                <div className={styles.rectangleDiv3} />
-                <img
-                  className={styles.vectorIcon5}
-                  alt=""
-                  src="../vector3.svg"
                 />
               </div>
               <div className={styles.groupDiv}>

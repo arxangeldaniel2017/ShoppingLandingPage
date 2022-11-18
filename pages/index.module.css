@@ -1,35 +1,5 @@
-.vectorIcon {
-  position: relative;
-  width: 23.45px;
-  height: 21.75px;
-  flex-shrink: 0;
-}
-.fASHIONButton,
-.fashionLogoButton {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-}
-.fASHIONButton {
-  position: relative;
-  font-size: var(--font-size-3xl);
-  letter-spacing: 0.03em;
-  font-weight: 900;
-  font-family: var(--font-poppins);
-  color: var(--color-black);
-  text-align: left;
-  display: inline-block;
-}
-.fashionLogoButton {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 9.75px;
-}
 .cATALOGUEButton,
-.fASHIONButton1,
+.fASHIONButton,
 .fAVOURITEButton,
 .lIFESTYLEButton {
   cursor: pointer;
@@ -48,7 +18,7 @@
   height: 27px;
   flex-shrink: 0;
 }
-.fASHIONButton1,
+.fASHIONButton,
 .fAVOURITEButton,
 .lIFESTYLEButton {
   width: 72.01px;
@@ -205,7 +175,7 @@
 }
 .liveForInfluentialAndInnov {
   position: relative;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   letter-spacing: -0.05em;
   color: #191818;
   display: inline-block;
@@ -214,7 +184,7 @@
   flex-shrink: 0;
   z-index: 3;
 }
-.vectorIcon1 {
+.vectorIcon {
   position: relative;
   width: 142.52px;
   height: 23.97px;
@@ -322,7 +292,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
-  gap: var(--gap-2xs);
+  gap: var(--gap-xs);
 }
 .fashionImageIcon {
   align-self: stretch;
@@ -356,7 +326,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-3xs);
+  gap: var(--gap-2xs);
 }
 .arrowIcon {
   position: relative;
@@ -372,7 +342,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-sm);
+  gap: 21px;
 }
 .exploreNowDiv1,
 .nameDiv1 {
@@ -429,7 +399,7 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: flex-start;
-  gap: var(--gap-xs);
+  gap: var(--gap-sm);
 }
 .fashionCardsDiv {
   align-self: stretch;
@@ -437,7 +407,7 @@
   justify-content: space-around;
   gap: 95px;
   flex-wrap: wrap;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   color: var(--color-gray-800);
 }
 .newArrivalsDiv,
@@ -454,109 +424,6 @@
 .newArrivalsSectionDiv {
   background-color: var(--color-white);
   padding: 52px var(--padding-3xl) 69.05000305175781px;
-  box-sizing: border-box;
-  align-items: center;
-  justify-content: center;
-}
-.vectorIcon2 {
-  position: absolute;
-  top: 6.8px;
-  left: 240px;
-  width: 142.52px;
-  height: 23.97px;
-}
-.youngsFavouriteDiv1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  letter-spacing: 0.06em;
-  line-height: 37.5px;
-  font-weight: 900;
-  display: inline-block;
-}
-.rectangleIcon,
-.titleDiv2 {
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.titleDiv2 {
-  width: 405px;
-  height: 38px;
-}
-.rectangleIcon {
-  align-self: stretch;
-  border-radius: var(--br-lg);
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-.exploreNowDiv3,
-.trendingOnInstagram {
-  position: relative;
-  letter-spacing: -0.04em;
-  line-height: 37.5px;
-  font-weight: 500;
-  display: inline-block;
-  width: 258.78px;
-  height: 27px;
-  flex-shrink: 0;
-}
-.exploreNowDiv3 {
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-  width: 109.51px;
-  height: 24.75px;
-}
-.favCardDiv {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-sm);
-}
-.allUnder40,
-.exploreNowDiv4 {
-  position: relative;
-  letter-spacing: -0.04em;
-  line-height: 37.5px;
-  font-weight: 500;
-  display: inline-block;
-  width: 150.02px;
-  height: 26.25px;
-  flex-shrink: 0;
-}
-.exploreNowDiv4 {
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-  width: 107.26px;
-  height: 24.75px;
-}
-.panelContainerDiv {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 35px;
-  font-size: var(--font-size-xl);
-}
-.favouritesDiv,
-.youngsFavouriteDiv {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-}
-.youngsFavouriteDiv {
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 78px;
-  max-width: 1290px;
-}
-.favouritesDiv {
-  background-color: var(--color-white);
-  padding: var(--padding-md) var(--padding-2xl);
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
@@ -586,7 +453,7 @@
   justify-content: flex-start;
   gap: 30.75px;
 }
-.rectangleIcon2 {
+.rectangleIcon {
   position: relative;
   border-radius: var(--br-sm);
   width: 153.02px;
@@ -652,7 +519,7 @@
   font-weight: 900;
 }
 .typeYourEmailDownBelowAnd {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   line-height: 26.25px;
   color: #fffcf8;
 }
@@ -726,7 +593,7 @@
 }
 .communityInnerDiv {
   justify-content: flex-start;
-  gap: var(--gap-xs);
+  gap: var(--gap-sm);
 }
 .communityDiv {
   background-color: #e5c643;
@@ -739,7 +606,7 @@
 }
 .fASHIONDiv {
   position: relative;
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-xl);
   letter-spacing: 0.03em;
   font-weight: 900;
   font-family: var(--font-poppins);
@@ -767,7 +634,7 @@
   border-radius: var(--br-md);
   background-color: var(--color-gold-100);
 }
-.vectorIcon3 {
+.vectorIcon1 {
   position: absolute;
   height: 48.08%;
   width: 25.75%;
@@ -785,7 +652,7 @@
   height: 39px;
   flex-shrink: 0;
 }
-.vectorIcon4 {
+.vectorIcon2 {
   position: absolute;
   height: 42.08%;
   width: 42.09%;
@@ -798,11 +665,11 @@
   max-height: 100%;
 }
 .inB,
-.vectorIcon5 {
+.vectorIcon3 {
   position: absolute;
   left: 30.77%;
 }
-.vectorIcon5 {
+.vectorIcon3 {
   height: 39.05%;
   width: 48.08%;
   top: 30.77%;
@@ -985,31 +852,25 @@
   width: 100%;
   gap: 0;
   text-align: left;
-  font-size: var(--font-size-4xl);
+  font-size: var(--font-size-2xl);
   color: var(--color-black);
   font-family: var(--font-poppins);
 }
 @media screen and (max-width: 1200px) {
-  .vectorIcon {
-    width: 19px;
-  }
-  .fASHIONButton {
-    font-size: var(--font-size-2xl);
-  }
   .cATALOGUEButton,
-  .fASHIONButton1,
+  .fASHIONButton,
   .fAVOURITEButton,
   .lIFESTYLEButton {
     font-size: var(--font-size-3xs);
   }
   .linksDiv {
-    gap: var(--gap-2xs);
+    gap: var(--gap-xs);
   }
   .sIGNUPDiv {
     font-size: 16px;
   }
   .menuRightDiv {
-    gap: var(--gap-2xs);
+    gap: var(--gap-xs);
   }
   .navigationBarDiv {
     padding-left: var(--padding-xl);
@@ -1037,12 +898,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .vectorIcon {
-    width: 15px;
-  }
-  .fASHIONButton {
-    font-size: var(--font-size-lg);
-  }
   .linksDiv {
     display: none;
   }
@@ -1054,7 +909,7 @@
     font-size: var(--font-size-xs);
   }
   .menuRightDiv {
-    gap: var(--gap-2xs);
+    gap: var(--gap-xs);
   }
   .navigationBarDiv {
     padding-left: var(--padding-sm);
@@ -1080,7 +935,7 @@
     font-size: 17px;
     width: 100%;
   }
-  .vectorIcon1 {
+  .vectorIcon {
     width: 100px;
   }
   .shopNowDiv {
@@ -1092,39 +947,14 @@
     box-sizing: border-box;
   }
   .titleDiv1 {
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-xl);
   }
   .newArrivalsSectionDiv {
     padding-right: var(--padding-3xl);
     box-sizing: border-box;
   }
-  .vectorIcon2 {
-    left: 190;
-  }
-  .youngsFavouriteDiv1 {
-    font-size: var(--font-size-3xl);
-  }
-  .titleDiv2 {
-    width: 340px;
-  }
-  .trendingOnInstagram {
-    font-size: var(--font-size-lg);
-  }
-  .exploreNowDiv3 {
-    font-size: var(--font-size-xs);
-  }
-  .favCardDiv {
-    flex: unset;
-    align-self: stretch;
-  }
-  .allUnder40 {
-    font-size: var(--font-size-lg);
-  }
-  .panelContainerDiv {
-    flex-direction: column;
-  }
   .dOWNLOADAPPGETTHEVOUCHER {
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-xl);
   }
   .get30OffForFirstTransact {
     font-size: var(--font-size-2xs);
@@ -1148,7 +978,7 @@
     width: calc(100% - 120px);
   }
   .sENDDiv {
-    font-size: var(--font-size-lg);
+    font-size: 20px;
   }
   .formDiv {
     width: 100%;
@@ -1221,16 +1051,8 @@
     padding-right: var(--padding-2xs);
     box-sizing: border-box;
   }
-  .allUnder40 {
-    font-size: var(--font-size-xs);
-  }
-  .favouritesDiv {
-    padding-left: var(--padding-2xs);
-    padding-right: var(--padding-2xs);
-    box-sizing: border-box;
-  }
   .dOWNLOADAPPGETTHEVOUCHER {
-    font-size: var(--font-size-2xl);
+    font-size: 25px;
   }
   .get30OffForFirstTransact {
     font-size: 12px;
@@ -1239,7 +1061,7 @@
     min-width: 350px;
   }
   .jOINSHOPPINGCOMMUNITYTOGET {
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-xl);
     line-height: 30px;
   }
   .typeYourEmailDownBelowAnd {
@@ -1263,7 +1085,6 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .favouritesDiv,
   .newArrivalsSectionDiv {
     max-width: 1440px;
     align-self: center;
